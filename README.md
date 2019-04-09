@@ -20,10 +20,10 @@ cd ../app2
 npm install
 ng build
 cd ..
-npx serve -s 
+npx serve -l 4200 -s 
 ```
 
-Now open your browser to the url it says to open (usually http://localhost:5000).
+Now open your browser to http://localhost:4200
 
 ## More documentation
 Go to https://github.com/CanopyTax/single-spa-angular to learn how all of this works.
